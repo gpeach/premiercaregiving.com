@@ -1,0 +1,55 @@
+@import 'bootstrap/scss/bootstrap';
+
+// Define custom colors based on the website's palette
+$primary-color: #655e50; // Soft brown used in sections
+$secondary-color: #f8f9fa; // Light gray background
+$text-color: #333; // Dark gray for text
+
+// Override Bootstrap's default variables
+$body-bg: $secondary-color;
+$body-color: $text-color;
+$headings-font-family: 'Georgia', serif; // Serif font for headings
+$headings-color: $primary-color;
+
+// Apply custom styles
+body {
+    font-family: 'Arial', sans-serif; // Sans-serif for body text
+}
+
+.navbar {
+    background-color: #fff; // White background for navbar
+    border-bottom: 1px solid #dee2e6; // Light border for separation
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff; // White text over hero image
+    padding: 100px 0;
+}
+
+.section-title {
+    color: $primary-color;
+    font-family: 'Georgia', serif;
+    margin-bottom: 30px;
+}
+
+// Image sizes to match the reference website
+.img-hero {
+    width: 100%;
+    height: auto;
+    max-height: 500px; // Adjust as needed
+}
+
+.img-portrait {
+    width: 100%;
+    max-width: 400px; // Adjust as needed
+    height: auto;
+    border-radius: 8px; // Optional: adds rounded corners
+}
+
+.img-pride-flag {
+    width: 100%;
+    max-width: 100px; // Adjust as needed
+    height: auto;
+}
