@@ -1,3 +1,4 @@
+{{--TODO fix testimonial text--}}
 @extends('base')
 
 @section('title', 'Testimonials Page')
