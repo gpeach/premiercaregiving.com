@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Premier Caregiving</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('base')
 
-    {{-- Vite CSS --}}
-    @vite(['resources/sass/premiercaregiving.scss'])
-</head>
-<body>
+@section('title', 'Home Page')
 
-{{-- Navbar --}}
-<nav class="navbar navbar-expand-lg bg-white border-bottom">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Premier Caregiving</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#bio">Bio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
+@section('content')
 {{-- Hero Section --}}
 <header class="hero d-flex align-items-center text-white text-center" style="background-image: url('{{ asset('images/hero.jpg') }}');">
     <div class="container">
@@ -49,7 +24,7 @@
                     <span class="fw-bold">(954) 543-0946</span></p>
             </div>
             <div class="col-md-4 text-center">
-                <img src="{{ asset('images/dancaregiver.png') }}" class="img-fluid rounded" alt="Caregiver portrait">
+                <img src="{{ asset('images/bio.jpg') }}" alt="Caregiver portrait" class="img-fluid rounded">
             </div>
         </div>
     </div>
@@ -86,7 +61,7 @@
             </div>
         </div>
         <div class="text-center mt-4">
-            <a href="#" class="btn btn-light">View All</a>
+            <a href="/services" class="btn btn-light">View All</a>
         </div>
     </div>
 </section>
@@ -105,28 +80,7 @@
     <div class="container">
         <h2 class="mb-4">Get in Touch</h2>
         <p>Thanks for visiting. If you or a family member may need my care, please contact me to discuss your situation or for further information.</p>
-        <a href="mailto:brookhardinpeach@gmail.com" class="btn btn-light mt-3">Contact Me</a>
+        <a href="/contact" class="btn btn-light mt-3">Contact Me</a>
     </div>
 </section>
-
-{{-- Footer --}}
-<footer class="py-4 bg-light border-top text-center small">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">PremierCaregiving.com</div>
-            <div class="col-md-4">
-                <p class="mb-0">1541 South Ocean Blvd Unit 411<br>Pompano Beach FL 33062</p>
-                <img src="{{ asset('images/pride_flag.svg') }}" alt="Progress Pride Flag" class="mt-2" style="max-height: 40px;">
-            </div>
-            <div class="col-md-4">
-                <div>(954) 543-0946</div>
-                <div><a href="mailto:brookhardinpeach@gmail.com">brookhardinpeach@gmail.com</a></div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-@vite(['resources/js/app.js'])
-</body>
-</html>
-
+@endsection

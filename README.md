@@ -64,3 +64,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+--------------------------------------
+PHP 8.2 min
+PHP=8.4
+Ext=ctype, cURL, DOM, Fileinfo, Filter, Hash, Mbstring, OpenSSL, PCRE, PDO, Session, Tokenizer, and XML
+Maria=Ver 15.1 Distrib 10.11.11-MariaDB, for Win64 (AMD64)
+NPM
+
+laravel_playground
+serve xampp
+http://localhost/laravel_playground/public/
+or serve with artisan
+php artisan serve --host=0.0.0.0 --port=8080
+http://localhost:8080/
+http://10.0.0.198:8080/
+local css=vite
+npm run dev
+npm run build
