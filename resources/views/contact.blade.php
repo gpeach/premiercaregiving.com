@@ -1,3 +1,4 @@
+{{--TODO fix dreamhost smtp--}}
 @extends('base')
 
 @section('title', 'Contact Page')
@@ -29,7 +30,6 @@
                     <form method="POST" action="{{ route('contact.submit') }}">
                         @csrf
                         <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
                             <div method="POST" action="{{ route('contact.submit') }}">
                                 @csrf
                                 <div class="mb-3">
