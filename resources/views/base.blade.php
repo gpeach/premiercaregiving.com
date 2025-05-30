@@ -40,7 +40,7 @@
             </div>
             <div class="col-md-4">
                 <div>(954) 543-0946</div>
-                <div><a href="mailto:brookhardinpeach@gmail.com">brookhardinpeach@gmail.com</a></div>
+                <div><a href="mailto:dan@premiercaregiving.com?subject=Contact Request" class="fw-semibold">dan@premiercaregiving.com</a></div>
             </div>
         </div>
     </div>

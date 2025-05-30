@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
+        "build": "vite build && move public\\build\\.vite\\manifest.json public\\build\\manifest.json && rmdir /s /q public\\build\\.vite",
         "dev": "vite"
     },
     "devDependencies": {

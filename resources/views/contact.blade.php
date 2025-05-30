@@ -18,8 +18,7 @@
                     <h2>Let’s Connect</h2>
                     <p>If you or a loved one may need assistance, I’m here to help. Contact me directly to schedule a
                         consultation or ask any questions about the services I provide.</p>
-                    <p><strong>Email:</strong> <a
-                            href="mailto:brookhardinpeach@gmail.com">brookhardinpeach@gmail.com</a><br>
+                    <p><strong>Email:</strong> <a href="mailto:dan@premiercaregiving.com?subject=Contact Request" class="fw-semibold">dan@premiercaregiving.com</a><br>
                         <strong>Phone:</strong> <a href="tel:+19545430946">(954) 543-0946</a></p>
                     <p><strong>Address:</strong><br>1541 South Ocean Blvd Unit 411<br>Pompano Beach FL 33062</p>
                 </div>

@@ -45,7 +45,7 @@
                     <img src="{{ asset('images/details_portrait.jpg') }}" alt="Caregiver portrait"
                          class="img-fluid rounded">
                 </div>
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 mt-3 text-center">
                     <a href="/services" class="btn btn-dark">Services</a>
                 </div>
             </div>
