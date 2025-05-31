@@ -12,8 +12,8 @@
 
     <section class="py-5 bg-light">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-6 col-lg-5 offset-lg-1 mb-3">
                     <h2 class="fw-semibold mb-4">Private Caregiving<br>
                         Day-to-day assistance</h2>
 
@@ -41,11 +41,11 @@
                         <li>Social Care and Meaningful Companionship</li>
                     </ul>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-6 col-lg-5 text-center">
                     <img src="{{ asset('images/details_portrait.jpg') }}" alt="Caregiver portrait"
                          class="img-fluid rounded">
                 </div>
-                <div class="col-md-12 mt-3 text-center">
+                <div class="col-md-12 mt-5 text-center">
                     <a href="/services" class="btn btn-dark">Services</a>
                 </div>
             </div>
