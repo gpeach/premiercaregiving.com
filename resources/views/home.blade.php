@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8">
-                    <h2 class="fw-semibold">Personal Care. Personally Done.</h2>
+                    <h2 class="fw-semibold">Personal Care... Personally Done.</h2>
                     <p>The care and well-being of your loved ones is a profound responsibility, one that I deeply
                         understand and value. As your private caregiver, I am wholly dedicated to providing not just
                         care, but a bond built on trust, respect, and heartfelt compassion. My years of experience
@@ -30,7 +30,8 @@
                         alternative to larger agencies, which often deliver impersonal and costly services. With my
                         approach, you receive high quality care tailored specifically to your needs.</p>
                     <p>Welcome to caregiving that feels like family.</p>
-                    <p class="mt-4"><a href="mailto:dan@premiercaregiving.com?subject=Contact Request" class="fw-semibold">dan@premiercaregiving.com</a><br>
+                    <p class="mt-4"><a href="mailto:dan@premiercaregiving.com?subject=Contact Request"
+                                       class="fw-semibold">dan@premiercaregiving.com</a><br>
                         <span class="fw-bold">(954) 543-0946</span></p>
                 </div>
                 <div class="col-md-4 text-center">
@@ -95,10 +96,15 @@
     {{-- Contact Section --}}
     <section id="contact" class="py-5 text-white" style="background-color: #655e50;">
         <div class="container">
-            <h2 class="mb-4">Get in Touch</h2>
-            <p>Thanks for visiting. If you or a family member may need my care, please contact me to discuss your
-                situation or for further information.</p>
-            <a href="/contact" class="btn btn-light mt-3">Contact Me</a>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h2 class="mb-4">Get in Touch</h2>
+                    <p>Thanks for visiting. If you or a family member may need my care, please contact me to discuss
+                        your
+                        situation or for further information.</p>
+                    <a href="/contact" class="text-center btn btn-light mt-3">Contact Me</a>
+                </div>
+            </div>
         </div>
     </section>
 @endsection

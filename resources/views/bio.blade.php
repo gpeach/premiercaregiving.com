@@ -20,7 +20,7 @@
                 <img src="{{ asset('images/bio.jpg') }}" alt="Caregiver portrait" class="img-fluid rounded">
             </div>
             <div class="col-md-8">
-                <h2 class="fw-semibold">Dan Hardin-Peach</h2>
+                <h2 class="fw-semibold  mt-5 mt-md-0">Dan Hardin-Peach</h2>
                 <p>I am an experienced certified caregiver, patient advocate, medical dietary assistant and nurse’s aide with experience in hospitals, nursing homes and private homes. I make your life easier and more pleasurable when you or your loved ones find it’s time that you need a little extra help with life.</p>
             </div>
 
