@@ -1,6 +1,8 @@
 @extends('base')
 
-@section('title', 'Home Page')
+@section('title', 'Premiere Caregiving Home Page')
+
+@section('description', 'Caregiving that feels like family')
 
 @section('content')
     {{-- Hero Section --}}
