@@ -21,6 +21,23 @@
                 <div class="col-md-8">
                     <blockquote class="blockquote">
                         <p>To Whom it May Concern, </p>
+                        <p>I highly recommend Dan Hardin-Peach as a caregiver for your loved one. He is experienced,
+                            compassionate, patient, trustworthy, and kind – moreover he is passionate about his role
+                            as a caregiver. Dan has been my mother’s caregiver for the last 2 years. In addition to
+                            providing for her needs (meals, medicine reminders, hygiene, laundry, cleaning, exercise) he went
+                            out of his way to enable joy such as baking together, walks in the park, drives on a beautiful
+                            day, a stroll on the beach, watching old movies, or just sharing a cup of coffee and listening
+                            to her stories. He is an excellent communicator, ensuring the family was kept abreast of her
+                            well-being and encouraged collaboration on daily routines and decisions. Over a short
+                            period of time, we felt as if he was part of our family, and so did mom. The situation
+                            changed for us, but we feel blessed to have had his support for as long as we did.</p>
+                        <footer class="blockquote-footer mt-3">Diane S.<br>Lauderdale by the Sea, FL</footer>
+                    </blockquote>
+
+                    <hr class="my-5">
+
+                    <blockquote class="blockquote">
+                        <p>To Whom it May Concern, </p>
                         <p>I am writing this letter to recommend Daniel Hardin-Peach for his exceptional dedication and
                             compassionate care as a caregiver for my mother, Jennifer P. Over the time that he has been
                             providing care for my mother, Dan has consistently demonstrated professionalism, love and
